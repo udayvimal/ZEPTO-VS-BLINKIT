@@ -132,47 +132,9 @@ User Friction	Users split orders	Same
 Opportunity	Push snack bundles	Improve daily staples
 Winner?	Groceries & essentials	Quick buys & treats
 
-💡 How to Run Locally
-Clone this repo:
-
-bash
-Copy
-Edit
-git clone https://github.com/udayvimal/grocery-platform-analysis.git
-cd grocery-platform-analysis
-Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run data generator:
-
-bash
-Copy
-Edit
-jupyter notebook notebooks/data_generation.ipynb
-Run scraper (requires ChromeDriver):
-
-bash
-Copy
-Edit
-python scripts/web_scraper_blinkit_zepto.py
-Explore dashboards:
 
 Open Tableau file in tableau/zepto_vs_blinkit.twbx
-OR
 
-Visit Tableau Public link.
-
-🔗 Links
-📈 Tableau PUBLIC LINK SHEETS: 
-
-📎 PowerPoint Report: Download from repo
-
-📂 Datasets Used: See data/ folder
-
-📜 Analysis Notebook: notebooks/exploratory_analysis.ipynb
 
 👨‍💻 Author
 Uday Vimal
